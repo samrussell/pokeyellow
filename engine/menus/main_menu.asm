@@ -184,8 +184,8 @@ ContinueText:
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "NOVA IGRA"
+	next "OPCIJA@"
 
 DisplayContinueGameInfo:
 	xor a

@@ -90,11 +90,11 @@ TextSpeedStringsPointerTable:
 	dw SlowText
 
 FastText:
-	db "FAST@"
+	db "BRZ @"
 MidText:
-	db "MID @"
+	db "SRED@"
 SlowText:
-	db "SLOW@"
+	db "LGNO@"
 
 GetTextSpeed:
 	ld a, [wOptions]
@@ -147,9 +147,9 @@ AnimationOptionStringsPointerTable:
 	dw AnimationOffText
 
 AnimationOnText:
-	db "ON @"
+	db "DA @"
 AnimationOffText:
-	db "OFF@"
+	db "NE @"
 
 OptionsMenu_BattleStyle:
 	ldh a, [hJoy5]
@@ -183,9 +183,9 @@ BattleStyleOptionStringsPointerTable:
 	dw BattleStyleSetText
 
 BattleStyleShiftText:
-	db "SHIFT@"
+	db "ZAMEN@"
 BattleStyleSetText:
-	db "SET  @"
+	db "FKSNO@"
 
 OptionsMenu_SpeakerSettings:
 	ld a, [wOptions]
@@ -239,11 +239,11 @@ SpeakerOptionStringsPointerTable:
 MonoSoundText:
 	db "MONO     @"
 Earphone1SoundText:
-	db "EARPHONE1@"
+	db "SLUŠALIC1@"
 Earphone2SoundText:
-	db "EARPHONE2@"
+	db "SLUŠALIC2@"
 Earphone3SoundText:
-	db "EARPHONE3@"
+	db "SLUŠALIC3@"
 
 OptionsMenu_GBPrinterBrightness:
 	call Func_41e7b
@@ -281,7 +281,7 @@ OptionsMenu_GBPrinterBrightness:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 8, 10
+	hlcoord 10, 10
 	call PlaceString
 	and a
 	ret
@@ -294,15 +294,15 @@ GBPrinterOptionStringsPointerTable:
 	dw DarkestPrintText
 
 LightestPrintText:
-	db "LIGHTEST@"
+	db "NAJSVTLJ@"
 LighterPrintText:
-	db "LIGHTER @"
+	db "SVETLIJE@"
 NormalPrintText:
-	db "NORMAL  @"
+	db "NORMALNO@"
 DarkerPrintText:
-	db "DARKER  @"
+	db "TAMNIJE @"
 DarkestPrintText:
-	db "DARKEST @"
+	db "NAJTAMNJ@"
 
 Func_41e7b:
 	ld a, [wPrinterSettings]
@@ -433,11 +433,11 @@ InitOptionsMenu:
 	ret
 
 AllOptionsText:
-	db "TEXT SPEED :"
-	next "ANIMATION  :"
-	next "BATTLESTYLE:"
-	next "SOUND:"
-	next "PRINT:@"
+	db "BRZ TEKSTA :"
+	next "ANIMACIJA  :"
+	next "STIL BORBE :"
+	next "ZVUK:"
+	next "ŠTAMPA:@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "OTKAŽI@"

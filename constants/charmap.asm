@@ -157,6 +157,20 @@
 	charmap "'t",        $be
 	charmap "'v",        $bf
 
+; čudna srpska slova
+; no idea how to do large C and S
+; so use lowercase
+	charmap "Č",         $d0; $c0
+	charmap "Ć",         $d1; $c1
+	charmap "Š",         $d2; $c2
+	charmap "Đ",         $c3
+	charmap "Ž",         $c4; $99
+	charmap "č",         $d0
+	charmap "ć",         $d1
+	charmap "š",         $d2
+	charmap "đ",         $d3
+	charmap "ž",         $d4
+
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
