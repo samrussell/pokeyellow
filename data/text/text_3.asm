@@ -171,109 +171,109 @@ _RareCandyText::
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> je upalio"
+	line "kompjuter."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Prestupio BILLov"
+	line "kompjuter."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Prestupio #MON"
+	line "skladilište."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Prestupio nečije"
+	line "kompjuter."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Prestupio #MON"
+	line "skladilište."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Prestupio svoj"
+	line "kompjuter."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Prestupio"
+	line "skladilište."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> upalio"
+	line "kompjuter."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Šta hoćeš da"
+	line "radiš?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Šta hoćeš da"
+	line "staviš?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Koliko?"
 	done
 
 _ItemWasStoredText::
 	text_ram wcd6d
-	text " was"
-	line "stored via PC."
+	text " je"
+	line "stavljen u PC."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Nemaš ništa da"
+	line "staviš."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Nema više mesta"
+	line "za itema."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Šta hoćeš da"
+	line "preuzmiš?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Koliko?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Preuzeo"
 	line "@"
 	text_ram wcd6d
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Nema ovde ništa"
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Ne možeš da nosiš"
+	line "više itema"
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Šta hoćeš da"
+	line "izbaciš?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Koliko?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Prestupio sajt"
+	line "#MONa LIGA."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Prestupio spisak"
+	line "DVORANE SLAVE."
 	prompt
 
 _SleepingPikachuText2::
@@ -433,60 +433,61 @@ _NotEnoughMemoryText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Zdravo!"
+	line "Dobrodošao u"
+	cont "svet #MONa!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Zovem se HRAST!"
+	line "Ljude me zove"
+	cont "Profesor #MON!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Ovaj svet je"
+	line "naseljen život-"
+	cont "inama koji se"
+	cont "zove #MONi!@"
 	text_end
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"Za neke ljude,"
+	line "#MONi su"
+	cont "ljubimci. Drugi"
+	cont "ih koriste za"
+	cont "borbe"
 
-	para "Myself..."
+	para "A ja..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Studiram #MON"
+	line "kao profesiju."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Prvo, kako se"
+	line "zovete?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Evo je moj unuk."
+	line "On je tvoj rival"
+	cont "od detinstva."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Kaži mi,"
+	line "kako se zove?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Tvoj sopstveni"
+	line "#MON legenda"
+	cont "odmah se počinije"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Svet sana i "
+	line "avanture sa"
+	cont "#MONima te"
+	cont "čeka!"
+	cont "Ajmo!"
 	done
 
 _DoYouWantToNicknameText::
@@ -498,14 +499,14 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Naravno! Zovete"
+	line "se <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Tako je! Sada se"
+	line "sećam! On se"
+	cont "zove <RIVAL>!"
 	prompt
 
 _WillBeTradedText::

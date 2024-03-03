@@ -1,42 +1,42 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home someday."
-	cont "It said so on TV."
+	text "MOM: Važi."
+	line "Najbolje bi bilo"
+	cont "da kreneš, znaš"
+	cont "da autobus putuje"
+	cont "dugo."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "PROF.HRAST te"
+	line "čeka kod kuće"
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>, if"
-	line "you drive your"
-	cont "#MON too hard,"
-	cont "they'll dislike"
-	cont "you."
+	text "MOM: <PLAYER>, ako"
+	line "previše pritisneš"
+	cont "svoje #MONi,"
+	cont "neće te voleti"
 
-	para "You should take a"
-	line "rest."
+	para "Trebalo bi da"
+	line "odmoriš."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MOM: Sjajno!"
+	line "Ti i tvoji"
+	cont "#MONi fino"
+	cont "izgledate!"
+	cont "Brini se o sebi!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Ima film na TV."
+	line "Gomila ljudi u"
+	cont "autobusu"
+	cont "za Beograd."
 
-	para "I better go too."
+	para "Za Beograd."
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups, pogrešna"
+	line "strana."
 	done

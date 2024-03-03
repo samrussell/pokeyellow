@@ -240,10 +240,10 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "WITHDRAW ITEM"
-	next "DEPOSIT ITEM"
-	next "TOSS ITEM"
-	next "LOG OFF@"
+	db   "PREUZMI ITEM"
+	next "STAVI ITEM"
+	next "ZIBACI ITEM"
+	next "ODJAVI SE@"
 
 TurnedOnPC2Text:
 	text_far _TurnedOnPC2Text
